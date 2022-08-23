@@ -21,7 +21,61 @@
     - The freeCodeCamp Team
 
     -->
+    <div class="header">
+      <h1>freeCodeCamp Survey Form</h1>
+      <p>Thank you for taking the time to help us improve the platform</p>
+    </div>
+
+    <div class="container">
+      <form action="" id="survey-form">
+        <div>
+          <label for="name-label" id="name-label">Name</label>
+          <input
+            type="text"
+            class="input-text"
+            id="name-label"
+            placeholder="Input your name"
+          />
+        </div>
+        <div>
+          <label for="email-label" id="email-label">Email</label>
+          <input
+            type="text"
+            class="input-text"
+            id="email"
+            placeholder="Input your name"
+          />
+        </div>
+        <div>
+          <label for="age-label" id="age-label">Age</label>
+          <input
+            type="number"
+            class="input-text"
+            id="number"
+            placeholder="Input your name"
+            min="10"
+            max="100"
+          />
+        </div>
+        <div>
+          <label for="dropdown" id="dropdown-label"
+            >Which option best describes your current role?</label
+          >
+          <select name="dropdown" id="dropdown">
+            <option value="" disabled>Select current role</option>
+            <option value="student">student</option>
+            <option value="full-time-job">full-time job</option>
+            <option value="full-time-job">full-time learner</option>
+            <option value="full-time-job">prefer not to say</option>
+            <option value="full-time-job">others</option>
+          </select>
+        </div>
+        <div>
+          <label for=""></label>
+        </div>
+      </form>
+    </div>
+
     <script src="js/index.js"></script>
-    <h1>Hello World!, We are software developers</h1>
   </body>
 </html>
